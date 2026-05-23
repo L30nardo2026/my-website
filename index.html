@@ -1,37 +1,108 @@
-<header class="relative bg-slate-950 border-b border-slate-800 overflow-hidden">
-    <!-- Background Asset -->
-    <img src="assets/hero-bg.jpg" alt="Automation Workflow" class="absolute inset-0 w-full h-full object-cover opacity-30 pointer-events-none">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redmatic | Intelligent Automation Systems</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-300 font-sans antialiased selection:bg-red-500 selection:text-white">
 
-    <!-- Navigation -->
-    <nav class="relative z-10 flex justify-between items-center px-10 py-6 border-b border-slate-800/50">
-        <div class="text-3xl font-black text-white tracking-tighter italic">REDMATIC</div>
-        <div class="space-x-8 font-medium">
-            <a href="index.html" class="text-red-500">Home</a>
-            <a href="reputation.html" class="hover:text-red-500 transition">Reputation</a>
-            <a href="automation.html" class="hover:text-red-500 transition">Automation</a>
-            <a href="about.html" class="hover:text-red-500 transition">About</a>
-        </div>
-            </nav>
+    <header class="relative bg-slate-950 border-b border-slate-800 overflow-hidden min-h-screen flex flex-col justify-center pb-20">
+        <img src="assets/hero-bg.jpg" alt="Automation Workflow" class="absolute inset-0 w-full h-full object-cover opacity-30 pointer-events-none">
 
-    <!-- Hero Content -->
-    <div class="relative z-10 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center py-24 px-6">
-        <div>
-            <h1 class="text-6xl font-black text-white mb-6 leading-tight">
-                Systems that <span class="text-red-500 drop-shadow-[0_0_15px_rgba(239,68,68,0.8)]">process</span>, not just store.
-            </h1>
-            <p class="text-xl text-slate-400 mb-10">
-                We bridge the gap between data and action. Redmatic architecturally integrates your reputation management and operational workflows into a unified, high-velocity engine.
-            </p>
-            <div class="flex gap-4">
-                <a href="reputation.html" class="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded shadow-[0_0_15px_rgba(220,38,38,0.5)] transition">Request Audit</a>
-                <a href="automation.html" class="border border-slate-700 hover:bg-slate-800 text-white font-bold py-4 px-8 rounded transition">Automation Lab</a>
+        <nav class="absolute top-0 w-full z-20 flex justify-between items-center px-10 py-6 border-b border-slate-800/50 bg-slate-950/80 backdrop-blur-sm">
+            <div class="text-3xl font-black text-white tracking-tighter italic">REDMATIC</div>
+            <div class="space-x-8 font-medium">
+                <a href="index.html" class="text-red-500">Home</a>
+                <a href="reputation.html" class="hover:text-red-500 transition">Reputation</a>
+                <a href="automation.html" class="hover:text-red-500 transition">Automation</a>
+                <a href="about.html" class="hover:text-red-500 transition">About</a>
             </div>
-                    </div>
+        </nav>
 
-        <!-- Asset Illustration -->
-        <div class="relative group">
-            <div class="absolute -inset-1 bg-red-600 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-            <img src="assets/process-flow.jpg" alt="Data Pipeline Flowchart" class="relative rounded-lg shadow-2xl w-full border border-slate-800">
+        <div class="relative z-10 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center px-6 mt-32">
+            <div>
+                <h1 class="text-6xl font-black text-white mb-6 leading-tight">
+                    Systems that <span class="text-red-500 drop-shadow-[0_0_15px_rgba(239,68,68,0.8)]">process</span>, not just store.
+                </h1>
+                <p class="text-xl text-slate-400 mb-10 leading-relaxed">
+                    We bridge the gap between data and action. Redmatic architecturally integrates your reputation management and operational workflows into a unified, high-velocity engine.
+                </p>
+                <div class="flex gap-4">
+                    <a href="reputation.html" class="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded shadow-[0_0_15px_rgba(220,38,38,0.5)] transition">Request Audit</a>
+                    <a href="automation.html" class="border border-slate-700 hover:bg-slate-800 text-white font-bold py-4 px-8 rounded transition">Automation Lab</a>
+                </div>
+            </div>
+
+            <div class="relative group">
+                <div class="absolute -inset-1 bg-red-600 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                <img src="assets/process-flow.jpg" alt="Data Pipeline Flowchart" class="relative rounded-lg shadow-2xl w-full border border-slate-800 aspect-video object-cover">
+            </div>
         </div>
-    </div>
-</header>
+    </header>
+
+    <section class="py-20 border-b border-slate-800 bg-slate-950">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+            <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 text-center hover:border-slate-700 transition">
+                <span class="text-5xl font-black text-red-500">5.8x</span>
+                <h4 class="text-lg font-bold text-white mt-4">Average ROI</h4>
+                <p class="mt-2 text-slate-500 text-sm">Realized within 14 months of deployment (McKinsey, 2025).</p>
+            </div>
+            <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 text-center hover:border-slate-700 transition">
+                <span class="text-5xl font-black text-red-500">38%</span>
+                <h4 class="text-lg font-bold text-white mt-4">Inbound Growth</h4>
+                <p class="mt-2 text-slate-500 text-sm">Lead conversion boost from automated loops (HubSpot, 2026).</p>
+            </div>
+            <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 text-center hover:border-slate-700 transition">
+                <span class="text-5xl font-black text-red-500">72%</span>
+                <h4 class="text-lg font-bold text-white mt-4">Failure Reduction</h4>
+                <p class="mt-2 text-slate-500 text-sm">Reduction in downtime via automated heartbeat telemetry.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-slate-900 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-black text-white text-center mb-20">The Glass Box Blueprint</h2>
+            <div class="space-y-16">
+                <div class="relative pl-12 border-l-2 border-slate-700 hover:border-red-500 transition duration-500">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-red-600 rounded-full shadow-[0_0_10px_rgba(220,38,38,0.8)]"></div>
+                    <h3 class="text-2xl font-bold text-white mb-3">01. Diagnostic Deep-Dive</h3>
+                    <p class="text-slate-400 leading-relaxed">We conduct a forensic audit of your operational footprint to isolate where your current process is stalling. This includes sentiment analysis on your existing reviews and a complete mapping of your manual data bottlenecks.</p>
+                </div>
+                <div class="relative pl-12 border-l-2 border-slate-700 hover:border-red-500 transition duration-500">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-red-600 rounded-full shadow-[0_0_10px_rgba(220,38,38,0.8)]"></div>
+                    <h3 class="text-2xl font-bold text-white mb-3">02. Blueprint Deployment</h3>
+                    <p class="text-slate-400 leading-relaxed">Your custom architecture is built into our framework. Every workflow is hard-coded with explicit documentation, ensuring you always own the internal logic of your business operations.</p>
+                </div>
+                <div class="relative pl-12 border-l-2 border-slate-700 hover:border-red-500 transition duration-500">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-red-600 rounded-full shadow-[0_0_10px_rgba(220,38,38,0.8)]"></div>
+                    <h3 class="text-2xl font-bold text-white mb-3">03. Telemetry & Reliability</h3>
+                    <p class="text-slate-400 leading-relaxed">We implement high-fidelity heartbeat monitoring across your stack. If an API connection breaks, our diagnostic engine pings the team immediately. Your systems are effectively self-healing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-slate-950">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8">
+            <div class="bg-slate-900 p-10 rounded-2xl border border-slate-800 hover:border-red-900 transition shadow-lg">
+                <h3 class="text-3xl font-bold text-white mb-4">Reputation Infrastructure</h3>
+                <p class="text-slate-400 mb-8 leading-relaxed">Your online footprint is your most valuable asset. We build automated loops that filter client sentiment, push requests to satisfied customers, and flag negative feedback for human intervention.</p>
+                <a href="reputation.html" class="text-red-500 font-bold hover:text-red-400 flex items-center gap-2">View Diagnostic Tools <span class="text-xl">→</span></a>
+            </div>
+            <div class="bg-slate-900 p-10 rounded-2xl border border-slate-800 hover:border-red-900 transition shadow-lg">
+                <h3 class="text-3xl font-bold text-white mb-4">Automation Lab</h3>
+                <p class="text-slate-400 mb-8 leading-relaxed">Efficiency is an architectural decision. We integrate your CRM, billing, and communication suites into a synchronized data stream, allowing your staff to focus on strategy instead of manual entry.</p>
+                <a href="automation.html" class="text-red-500 font-bold hover:text-red-400 flex items-center gap-2">Explore Efficiency Lab <span class="text-xl">→</span></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-slate-950 text-center text-slate-600 border-t border-slate-900">
+        <p>&copy; 2026 Redmatic Systems. All operations monitored by Glass Box Protocol.</p>
+    </footer>
+
+</body>
+</html>
