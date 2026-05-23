@@ -3,37 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redmatic | AI Automation Systems</title>
+    <title>Redmatic | Intelligent Automation Systems</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .bg-grid {
-            background-image: radial-gradient(circle, #2d2d2d 1px, transparent 1px);
-            background-size: 30px 30px;
-        }
-    </style>
 </head>
-<body class="bg-slate-950 text-slate-200 font-sans antialiased">
-      <!-- 1. Immersive Hero -->
-    <header class="relative bg-grid border-b border-slate-800">
-        <nav class="flex justify-between items-center px-10 py-6">
-            <div class="text-3xl font-extrabold text-white tracking-tighter">REDMATIC</div>
+<body class="bg-slate-900 text-slate-200 font-sans antialiased">
+
+    <!-- 1. Immersive Hero with SVG Flow Visualization -->
+    <header class="relative border-b border-slate-800 bg-slate-950">
+        <nav class="flex justify-between items-center px-10 py-6 border-b border-slate-800">
+            <div class="text-3xl font-black text-white tracking-tighter">REDMATIC</div>
             <div class="space-x-8 font-medium">
-                <a href="index.html" class="hover:text-red-500 transition">Home</a>
+                                <a href="index.html" class="text-red-500">Home</a>
                 <a href="reputation.html" class="hover:text-red-500 transition">Reputation</a>
                 <a href="automation.html" class="hover:text-red-500 transition">Automation</a>
                 <a href="about.html" class="hover:text-red-500 transition">About</a>
             </div>
         </nav>
-        <div class="max-w-5xl mx-auto text-center py-24">
-            <h1 class="text-6xl md:text-7xl font-black text-white mb-6">
-                Intelligent Systems.<br><span class="text-red-500 drop-shadow-[0_0_15px_rgba(239,68,68,0.8)]">Zero Black Boxes.</span>
-                            </h1>
-            <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">
-                We build industrial-grade, monitored AI automation for high-growth businesses. Every decision is logged, every workflow is health-checked, and every process is optimized for scale.
-            </p>
-            <div class="space-x-4">
-                <a href="reputation.html" class="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded shadow-[0_0_15px_rgba(220,38,38,0.5)] transition">Request Audit</a>
-                <a href="automation.html" class="border border-slate-700 hover:bg-slate-900 text-white font-bold py-4 px-8 rounded transition">Automation Lab</a>
+
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center py-20 px-6">
+            <div>
+                <h1 class="text-6xl font-black text-white mb-6 leading-tight">
+                    Systems that <span class="text-red-500">process</span>, not just store.
+                </h1>
+                <p class="text-lg text-slate-400 mb-8">
+                    We bridge the gap between data and action. Redmatic architecturally integrates your reputation management and operational workflows into a unified, high-velocity engine.
+                </p>
+                                <div class="flex gap-4">
+                    <a href="reputation.html" class="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded shadow-[0_0_15px_rgba(220,38,38,0.5)] transition">Request Audit</a>
+                    <a href="automation.html" class="border border-slate-700 hover:bg-slate-800 text-white font-bold py-4 px-8 rounded transition">View Automation Lab</a>
+                </div>
+            </div>
+            <!-- SVG Data Flow Visualization -->
+            <div class="hidden md:block">
+                <svg viewBox="0 0 400 200" class="w-full h-auto">
+                    <defs>
+                        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <rect x="20" y="80" width="80" height="40" rx="5" fill="#1e293b" stroke="#475569"/>
+                                        <rect x="160" y="80" width="80" height="40" rx="5" fill="#1e293b" stroke="#475569"/>
+                    <rect x="300" y="80" width="80" height="40" rx="5" fill="#1e293b" stroke="#475569"/>
+                    <path d="M 100 100 L 160 100 M 240 100 L 300 100" stroke="url(#grad)" stroke-width="4" stroke-dasharray="5,5"/>
+                    <text x="35" y="105" fill="#94a3b8" font-size="12">INPUT</text>
+                    <text x="175" y="105" fill="#94a3b8" font-size="12">PROC</text>
+                    <text x="315" y="105" fill="#94a3b8" font-size="12">OUTPUT</text>
+                </svg>
             </div>
         </div>
     </header>
@@ -41,68 +57,68 @@
     <!-- 2. Market Authority Stats -->
     <section class="py-20 border-b border-slate-800">
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
-            <div class="bg-slate-900 p-8 rounded-lg border border-slate-800 text-center">
-                              <span class="text-5xl font-black text-red-500 drop-shadow-[0_0_10px_rgba(239,68,68,0.6)]">5.8x</span>
-                <p class="mt-4 text-slate-400">Average ROI on business process automation within 14 months (McKinsey, 2025).</p>
+            <div class="bg-slate-950 p-8 rounded border border-slate-800 text-center">
+                                <span class="text-5xl font-black text-red-500">5.8x</span>
+                <h4 class="text-lg font-bold text-white mt-4">Average ROI</h4>
+                <p class="mt-2 text-slate-500 text-sm">Realized within 14 months of deployment (McKinsey, 2025).</p>
             </div>
-            <div class="bg-slate-900 p-8 rounded-lg border border-slate-800 text-center">
-                <span class="text-5xl font-black text-red-500 drop-shadow-[0_0_10px_rgba(239,68,68,0.6)]">38%</span>
-                <p class="mt-4 text-slate-400">Increase in inbound lead conversion from automated reputation systems (HubSpot, 2026).</p>
+            <div class="bg-slate-950 p-8 rounded border border-slate-800 text-center">
+                <span class="text-5xl font-black text-red-500">38%</span>
+                <h4 class="text-lg font-bold text-white mt-4">Inbound Growth</h4>
+                <p class="mt-2 text-slate-500 text-sm">Lead conversion boost from automated reputation loops (HubSpot, 2026).</p>
             </div>
-            <div class="bg-slate-900 p-8 rounded-lg border border-slate-800 text-center">
-                <span class="text-5xl font-black text-red-500 drop-shadow-[0_0_10px_rgba(239,68,68,0.6)]">72%</span>
-                <p class="mt-4 text-slate-400">Reduction in critical system failures via proactive telemetry and heartbeat monitoring.</p>
+            <div class="bg-slate-950 p-8 rounded border border-slate-800 text-center">
+                <span class="text-5xl font-black text-red-500">72%</span>
+                <h4 class="text-lg font-bold text-white mt-4">Failure Reduction</h4>
+                <p class="mt-2 text-slate-500 text-sm">Reduction in downtime via automated heartbeat telemetry.</p>
             </div>
         </div>
-    </section>
+            </section>
 
     <!-- 3. Operational Flow Timeline -->
-      <section class="py-20 max-w-4xl mx-auto px-6">
-        <h2 class="text-4xl font-bold text-white text-center mb-16">The Glass Box Blueprint</h2>
-        <div class="space-y-12">
-            <div class="flex gap-6">
-                <div class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center font-bold text-white shrink-0">01</div>
-                <div>
-                    <h3 class="text-2xl font-bold text-white mb-2">Diagnostic Deep-Dive</h3>
-                    <p class="text-slate-400">We don't guess. We map your current workflows to identify conversion leaks, manual bottleneck hours, and reputation gaps. You get a visual blueprint of where your capital is leaking.</p>
+    <section class="py-24 bg-slate-950 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-black text-white text-center mb-20">The Glass Box Blueprint</h2>
+            <div class="space-y-16">
+                <div class="relative pl-12 border-l-2 border-red-600">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-red-600 rounded-full"></div>
+                    <h3 class="text-2xl font-bold text-white mb-3">01. Diagnostic Deep-Dive</h3>
+                    <p class="text-slate-400">We don't sell generic software. We conduct a forensic audit of your operational footprint to isolate where your current process is stalling. This includes sentiment analysis on your existing reviews and a complete mapping of your manual data bottlenecks.</p>
                 </div>
-            </div>
-            <div class="flex gap-6">
-                <div class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center font-bold text-white shrink-0">02</div>
-                <div>
-                    <h3 class="text-2xl font-bold text-white mb-2">System Deployment</h3>
-                    <p class="text-slate-400">We architect the automation stack. From review-capture loops to CRM integration, every piece of code is deployed with explicit documentation so you always own the system logic.</p>
-                                  </div>
-            </div>
-            <div class="flex gap-6">
-                <div class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center font-bold text-white shrink-0">03</div>
-                <div>
-                    <h3 class="text-2xl font-bold text-white mb-2">Telemetry & Scaling</h3>
-                    <p class="text-slate-400">Systems don't fail silently here. We implement heartbeat monitoring that pings our internal team the millisecond a workflow stalls, ensuring 99.9% operational reliability.</p>
+                <div class="relative pl-12 border-l-2 border-red-600">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-red-600 rounded-full"></div>
+                    <h3 class="text-2xl font-bold text-white mb-3">02. Blueprint Deployment</h3>
+                                        <p class="text-slate-400">Your custom automation architecture is built into our "Glass Box" framework. Every workflow—from lead intake to client review solicitation—is hard-coded with explicit documentation, ensuring you always own the internal logic of your business operations.</p>
+                </div>
+                <div class="relative pl-12 border-l-2 border-red-600">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-red-600 rounded-full"></div>
+                    <h3 class="text-2xl font-bold text-white mb-3">03. Telemetry & Reliability</h3>
+                    <p class="text-slate-400">We implement high-fidelity heartbeat monitoring across your stack. If an API connection breaks or a workflow stalls, our diagnostic engine pings the team immediately. Your systems are effectively self-healing.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- 4. Core Capabilities Grid -->
-    <section class="py-20 bg-slate-900 border-y border-slate-800">
-        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
-                      <div class="p-8 border border-slate-700 rounded hover:border-red-500 transition cursor-default group">
-                <h3 class="text-3xl font-bold text-white mb-4 group-hover:text-red-500 transition">Reputation Management</h3>
-                <p class="text-slate-400">We turn feedback into fuel. Our systems automatically request, filter, and display reviews, ensuring your public-facing reputation remains consistently 4.5+ stars.</p>
+    <section class="py-24">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8">
+            <div class="bg-slate-950 p-10 rounded-lg border border-slate-800 hover:border-red-900 transition">
+                                <h3 class="text-3xl font-bold text-white mb-4">Reputation Infrastructure</h3>
+                <p class="text-slate-400 mb-6">Your online footprint is your most valuable asset. We build automated loops that filter client sentiment, push requests to satisfied customers, and flag negative feedback for human intervention before it hits the public domain.</p>
+                <a href="reputation.html" class="text-red-500 font-bold hover:underline">View Diagnostic Tools →</a>
             </div>
-            <div class="p-8 border border-slate-700 rounded hover:border-red-500 transition cursor-default group">
-                <h3 class="text-3xl font-bold text-white mb-4 group-hover:text-red-500 transition">AI Automation Lab</h3>
-                <p class="text-slate-400">Stop paying employees to move data between apps. We connect your CRM, email, and billing into one synchronized workflow, saving an average of 15+ hours per employee weekly.</p>
+            <div class="bg-slate-950 p-10 rounded-lg border border-slate-800 hover:border-red-900 transition">
+                <h3 class="text-3xl font-bold text-white mb-4">Automation Lab</h3>
+                <p class="text-slate-400 mb-6">Efficiency is not an accident—it’s an architectural decision. We integrate your CRM, billing, and communication suites into a synchronized data stream, allowing your staff to focus on strategy instead of manual data entry.</p>
+                <a href="automation.html" class="text-red-500 font-bold hover:underline">Explore Efficiency Lab →</a>
             </div>
         </div>
     </section>
 
     <!-- 5. Footer -->
-    <footer class="py-12 text-center text-slate-600 border-t border-slate-900">
+    <footer class="py-12 text-center text-slate-600 border-t border-slate-800">
         <p>&copy; 2026 Redmatic Systems. All operations monitored by Glass Box Protocol.</p>
-    </footer>
-  </body>
+            </footer>
+
+</body>
 </html>
-  
-              
