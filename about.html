@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redmatic | The Glass Box Promise</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .neon-glow { text-shadow: 0 0 10px rgba(239, 68, 68, 0.7); }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { border-color: rgba(239,68,68,0.6); transform: translateY(-4px); }
+  </style>
+</head>
+<body class="bg-[#0b0f19] text-slate-300 font-sans antialiased">
+
+  <!-- Navigation -->
+  <nav class="flex justify-between items-center px-12 py-6 border-b border-gray-200 bg-white sticky top-0 z-50">
+    <div class="text-2xl font-black text-blue-600 tracking-tighter italic">REDMATIC</div>
+    <div class="space-x-8 text-sm font-bold tracking-widest uppercase text-gray-600">
+      <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+      <a href="reputation.html" class="hover:text-blue-600 transition">Reputation</a>
+      <a href="automation.html" class="hover:text-blue-600 transition">Automation</a>
+      <a href="about.html" class="text-blue-600">About</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative py-24 px-6 overflow-hidden bg-gray-50">
+    <div class="relative z-10 max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+      <div>
+        <span class="text-blue-600 text-sm font-bold tracking-widest uppercase mb-4 block">Our Philosophy</span>
+        <h1 class="text-5xl md:text-6xl font-black text-gray-900 mb-8 leading-[0.95]">
+          The <span class="text-blue-600">Glass Box</span> Promise
+        </h1>
+        <p class="text-lg text-gray-600 mb-8 leading-relaxed font-light">
+          We do not run mystery automation. Every meaningful decision, handoff, lesson, and operational change is written down. You can see what changed, why it changed, and what happens next — in plain language, accessible anytime.
+        </p>
+        <div class="flex gap-4">
+          <a href="reputation.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full transition uppercase tracking-widest text-sm shadow-md">Start an Audit</a>
+          <a href="#promises" class="border border-gray-300 hover:bg-gray-100 text-gray-700 font-bold py-4 px-8 rounded-full transition uppercase tracking-widest text-sm">Our Promises</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Three Promises -->
+  <section id="promises" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-4">Three promises. No exceptions.</h2>
+      <p class="text-gray-500 text-center mb-16 max-w-2xl mx-auto">This is how we build differently from every other automation agency.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-white p-10 border border-gray-200 rounded-xl hover:shadow-lg transition">
+          <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 text-blue-600">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">The Glass Box</h3>
+          <p class="text-sm text-gray-500 leading-relaxed">No black boxes. Every decision is documented in readable shared memory. You can audit the system at any time.</p>
+        </div>
+
+        <div class="bg-white p-10 border border-gray-200 rounded-xl hover:shadow-lg transition">
+          <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 text-blue-600">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">The Heartbeat</h3>
+          <p class="text-sm text-gray-500 leading-relaxed">Automations should not fail quietly. Critical tasks get heartbeat checks, freshness thresholds, and escalation paths.</p>
+        </div>
+
+        <div class="bg-white p-10 border border-gray-200 rounded-xl hover:shadow-lg transition">
+          <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 text-blue-600">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">The Agent Team</h3>
+          <p class="text-sm text-gray-500 leading-relaxed">Specialized agent roles ensure each automation function has a clear strategist, engineer, and security auditor.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Section -->
+  <section class="py-24">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-black text-white text-center mb-16">How we compare</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-slate-800">
+              <th class="text-left py-4 text-slate-500 font-bold uppercase tracking-widest">Capability</th>
+              <th class="text-center py-4 text-slate-500 font-bold uppercase tracking-widest">Typical Agency</th>
+              <th class="text-center py-4 text-red-500 font-bold uppercase tracking-widest">Redmatic</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800/50">
+            <tr>
+              <td class="py-4 text-white">Customer Chat</td>
+              <td class="text-center text-slate-500">Custom, often slow</td>
+              <td class="text-center text-white">Tidio/Crisp — instant deploy</td>
+            </tr>
+            <tr>
+              <td class="py-4 text-white">Internal Operations</td>
+              <td class="text-center text-slate-500">Hidden / undocumented</td>
+              <td class="text-center text-white">Glass Box command center</td>
+            </tr>
+            <tr>
+              <td class="py-4 text-white">Health Monitoring</td>
+              <td class="text-center text-slate-500">Rare / manual</td>
+              <td class="text-center text-white">Heartbeat checks, real-time</td>
+            </tr>
+            <tr>
+              <td class="py-4 text-white">Documentation</td>
+              <td class="text-center text-slate-500">Sparse / none</td>
+              <td class="text-center text-white">Full Glass Box logs</td>
+            </tr>
+            <tr>
+              <td class="py-4 text-white">Security Review</td>
+              <td class="text-center text-slate-500">Ad hoc</td>
+              <td class="text-center text-white">Dedicated audit lane</td>
+            </tr>
+            <tr>
+              <td class="py-4 text-white">Analytics Loop</td>
+              <td class="text-center text-slate-500">Dashboard-only</td>
+              <td class="text-center text-white">Feedback → insight pipeline</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="py-24 bg-slate-900/50">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-black text-white mb-6">Built for businesses that need leverage</h2>
+      <p class="text-slate-400 mb-6 max-w-2xl mx-auto">No enterprise bloat. No minimum commitment games. Transparent pricing that scales with your needs.</p>
+      <div class="inline-block border border-slate-800 rounded-xl p-8 bg-[#0b0f19]">
+        <p class="text-slate-500 text-sm uppercase tracking-widest mb-2">Starter range</p>
+        <p class="text-5xl font-black text-white mb-2">$500<span class="text-2xl text-slate-500">–$2,000</span></p>
+        <p class="text-slate-500 text-sm">per month depending on scope and integrations</p>
+        <a href="reputation.html" class="mt-8 inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-10 rounded transition uppercase tracking-widest text-sm shadow-[0_0_20px_rgba(220,38,38,0.4)]">Book a Free Audit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Final -->
+  <section class="py-20 text-center px-6">
+    <h2 class="text-3xl font-black text-white mb-6">Want an automation system you can actually trust?</h2>
+    <p class="text-slate-400 mb-10 max-w-2xl mx-auto">Start with a free audit. We'll map your support, lead, and reporting workflows, then show which automations can save time fastest.</p>
+    <a href="reputation.html" class="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-10 rounded transition uppercase tracking-widest text-sm shadow-[0_0_20px_rgba(220,38,38,0.4)]">Book the Free Audit</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 py-10 px-12">
+    <div class="max-w-7xl mx-auto flex justify-between items-center text-sm text-slate-600">
+      <div class="font-black text-white italic tracking-tighter">REDMATIC</div>
+      <div>Intelligent Automation Systems</div>
+      <div>© 2026 Redmatic</div>
+    </div>
+  </footer>
+
+</body>
+</html>

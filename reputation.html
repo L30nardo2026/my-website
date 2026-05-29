@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redmatic | Reputation Diagnostic Audit</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .neon-glow { text-shadow: 0 0 10px rgba(239, 68, 68, 0.7); }
+    .input-field { transition: all 0.3s ease; }
+    .input-field:focus { border-color: #ef4444; box-shadow: 0 0 0 2px rgba(239,68,68,0.15); outline: none; }
+  </style>
+</head>
+<body class="bg-white text-gray-800 font-sans antialiased">
+
+  <!-- Navigation -->
+  <nav class="flex justify-between items-center px-12 py-6 border-b border-gray-200 bg-white sticky top-0 z-50">
+    <div class="text-2xl font-black text-blue-600 tracking-tighter italic">REDMATIC</div>
+    <div class="space-x-8 text-sm font-bold tracking-widest uppercase text-gray-600">
+      <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+      <a href="reputation.html" class="text-blue-600">Reputation</a>
+      <a href="automation.html" class="hover:text-blue-600 transition">Automation</a>
+      <a href="about.html" class="hover:text-blue-600 transition">About</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative py-24 px-6 overflow-hidden bg-gray-50">
+    <div class="relative z-10 max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+      <div>
+        <span class="text-blue-600 text-sm font-bold tracking-widest uppercase mb-4 block">Phase 1 — Diagnostic</span>
+        <h1 class="text-5xl md:text-6xl font-black text-gray-900 mb-8 leading-[0.95]">
+          Your digital reputation is <span class="text-blue-600">leaking revenue.</span>
+        </h1>
+        <p class="text-lg text-gray-600 mb-8 leading-relaxed font-light">
+          Most businesses cannot see where customers drop off. We perform a deep-dive forensic audit of your digital presence — sentiment mapping, competitor gap analysis, and conversion leak identification — then deliver a surgical remediation plan.
+        </p>
+        <div class="grid grid-cols-3 gap-4 text-center mb-8">
+          <div class="border border-gray-200 bg-white rounded-lg p-4">
+            <div class="text-2xl font-black text-blue-600">1.</div>
+            <div class="text-xs text-gray-500 mt-1">Sentiment Scan</div>
+          </div>
+          <div class="border border-gray-200 bg-white rounded-lg p-4">
+            <div class="text-2xl font-black text-blue-600">2.</div>
+            <div class="text-xs text-gray-500 mt-1">Gap Analysis</div>
+          </div>
+          <div class="border border-gray-200 bg-white rounded-lg p-4">
+            <div class="text-2xl font-black text-blue-600">3.</div>
+            <div class="text-xs text-gray-500 mt-1">Remediation</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lead Capture Form -->
+      <div class="bg-white border border-gray-100 rounded-xl p-10 shadow-lg ring-1 ring-gray-900/5">
+        <h3 class="text-xl font-bold text-gray-900 mb-2">Start with a free audit</h3>
+        <p class="text-sm text-gray-500 mb-8">We'll map your workflows and show which automations save time fastest.</p>
+        <form id="leadForm" action="#" method="POST">
+          <div class="space-y-5">
+            <div>
+              <label class="text-xs text-gray-400 uppercase tracking-widest block mb-2">Full Name</label>
+              <input type="text" placeholder="Your name" required class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-gray-900 text-sm focus:ring-2 focus:ring-blue-600 focus:outline-none">
+            </div>
+            <div>
+              <label class="text-xs text-gray-400 uppercase tracking-widest block mb-2">Email Address</label>
+              <input type="email" placeholder="you@company.com" required class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-gray-900 text-sm focus:ring-2 focus:ring-blue-600 focus:outline-none">
+            </div>
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full transition uppercase tracking-widest text-sm shadow-md">
+              Request Free Audit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- What We Diagnose -->
+  <section class="py-24 bg-slate-900/50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-black text-white text-center mb-16">What we diagnose</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-[#0b0f19] p-8 border border-slate-800 rounded-lg card-hover" style="transition: all 0.3s ease;">
+          <h3 class="text-lg font-bold text-white mb-3">Review Sentiment</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">We crawl Google, Yelp, and industry review platforms to map sentiment trends, flag recurring complaints, and benchmark against competitors.</p>
+        </div>
+        <div class="bg-[#0b0f19] p-8 border border-slate-800 rounded-lg card-hover" style="transition: all 0.3s ease;">
+          <h3 class="text-lg font-bold text-white mb-3">Conversion Leaks</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">We trace your customer journey to identify where leads drop off — whether it's slow response times, broken CTAs, or poor mobile experience.</p>
+        </div>
+        <div class="bg-[#0b0f19] p-8 border border-slate-800 rounded-lg card-hover" style="transition: all 0.3s ease;">
+          <h3 class="text-lg font-bold text-white mb-3">Competitor Gaps</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">We analyze your top 3 competitors to identify positioning gaps and automation opportunities they are missing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 text-center px-6">
+    <h2 class="text-3xl font-black text-white mb-6">Stop losing customers to blind spots.</h2>
+    <p class="text-slate-400 mb-10 max-w-2xl mx-auto">Most businesses never see the leak. We find it, measure it, and automate the fix.</p>
+    <a href="#leadForm" class="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-10 rounded transition uppercase tracking-widest text-sm shadow-[0_0_20px_rgba(220,38,38,0.4)]">Claim Your Free Audit</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 py-10 px-12">
+    <div class="max-w-7xl mx-auto flex justify-between items-center text-sm text-slate-600">
+      <div class="font-black text-white italic tracking-tighter">REDMATIC</div>
+      <div>Intelligent Automation Systems</div>
+      <div>© 2026 Redmatic</div>
+    </div>
+  </footer>
+
+</body>
+</html>

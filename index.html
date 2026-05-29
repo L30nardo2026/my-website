@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redmatic | Intelligent Automation Systems</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .neon-glow { text-shadow: 0 0 10px rgba(239, 68, 68, 0.7); }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { border-color: rgba(239,68,68,0.6); transform: translateY(-4px); }
+  </style>
+</head>
+<body class="bg-white text-gray-800 font-sans antialiased">
+
+  <!-- Navigation -->
+  <nav class="flex justify-between items-center px-12 py-6 border-b border-slate-800 bg-[#0b0f19]/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="text-2xl font-black text-white italic tracking-tighter">REDMATIC</div>
+    <div class="space-x-8 text-sm font-bold tracking-widest uppercase">
+      <a href="index.html" class="text-red-500">Home</a>
+      <a href="reputation.html" class="hover:text-red-500 transition">Reputation</a>
+      <a href="automation.html" class="hover:text-red-500 transition">Automation</a>
+      <a href="about.html" class="hover:text-red-500 transition">About</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative py-24 px-6 overflow-hidden">
+    <img src="assets/hero-bg.jpg" alt="Background" class="absolute inset-0 w-full h-full object-cover opacity-20">
+    <div class="relative z-10 max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+      <div>
+        <h1 class="text-6xl md:text-7xl font-black text-white mb-8 leading-[0.9]">
+          Automation that <span class="text-red-500 neon-glow">scales.</span>
+        </h1>
+        <p class="text-xl text-slate-400 mb-10 leading-relaxed">
+          We bridge the gap between fragmented data and high-velocity business operations. Redmatic engineers industrial-grade automation stacks that turn your manual bottlenecks into automated assets.
+        </p>
+        <div class="flex gap-4">
+          <a href="reputation.html" class="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded transition uppercase tracking-widest text-sm shadow-[0_0_20px_rgba(220,38,38,0.4)]">Request Audit</a>
+          <a href="automation.html" class="border border-slate-700 hover:bg-slate-800 text-white font-bold py-4 px-8 rounded transition uppercase tracking-widest text-sm">View Lab</a>
+        </div>
+      </div>
+      <div class="relative group">
+        <img src="assets/process-flow.png" alt="Operational Flow" class="w-full h-auto rounded border border-slate-800 shadow-2xl">
+      </div>
+    </div>
+  </header>
+
+  <!-- Capabilities Grid -->
+  <section class="py-24 bg-slate-900/50">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+      <div class="bg-[#0b0f19] p-10 border border-slate-800 rounded-lg card-hover">
+        <div class="w-12 h-12 bg-red-600/20 rounded-lg flex items-center justify-center mb-6">
+          <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-4">Reputation Diagnostic</h3>
+        <p class="text-slate-400 mb-6 text-sm leading-relaxed">We perform a deep-dive forensic audit of your digital presence. Sentiment mapping, competitor gap analysis, and conversion leak identification.</p>
+        <a href="reputation.html" class="text-red-500 text-sm font-bold hover:text-red-400 transition">Learn more →</a>
+      </div>
+      <div class="bg-[#0b0f19] p-10 border border-slate-800 rounded-lg card-hover">
+        <div class="w-12 h-12 bg-red-600/20 rounded-lg flex items-center justify-center mb-6">
+          <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-4">AI Automation Lab</h3>
+        <p class="text-slate-400 mb-6 text-sm leading-relaxed">Architecture and deployment of custom workflows. CRM, billing, and communication suites synchronized into a single, high-output data stream.</p>
+        <a href="automation.html" class="text-red-500 text-sm font-bold hover:text-red-400 transition">Learn more →</a>
+      </div>
+      <div class="bg-[#0b0f19] p-10 border border-slate-800 rounded-lg card-hover">
+        <div class="w-12 h-12 bg-red-600/20 rounded-lg flex items-center justify-center mb-6">
+          <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-4">Heartbeat Telemetry</h3>
+        <p class="text-slate-400 mb-6 text-sm leading-relaxed">Proactive system health monitoring. If an automated workflow stalls or an API connection breaks, we are pinged in real-time, ensuring 99.9% uptime.</p>
+        <a href="about.html" class="text-red-500 text-sm font-bold hover:text-red-400 transition">Learn more →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Strip -->
+  <section class="py-16 border-t border-slate-800">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <p class="text-slate-500 text-sm uppercase tracking-widest mb-6">The Glass Box Promise</p>
+      <p class="text-xl text-slate-400 leading-relaxed">No mystery black boxes. Every decision, handoff, and lesson is documented. You can see exactly what changed, why it changed, and what happens next.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 py-10 px-12">
+    <div class="max-w-7xl mx-auto flex justify-between items-center text-sm text-slate-600">
+      <div class="font-black text-white italic tracking-tighter">REDMATIC</div>
+      <div>Intelligent Automation Systems</div>
+      <div>© 2026 Redmatic</div>
+    </div>
+  </footer>
+
+</body>
+</html>
